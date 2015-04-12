@@ -1,0 +1,20 @@
+{
+    "baseUrl": "http://localhost",
+    "port": 3000,
+    "wsPort": 8081,
+    "projectsFolder": "../projects",
+    "ignoreFile": [
+    	".bowerrc",
+        ".DS_Store",
+        "node_modules",
+        "npm-debug.log",
+        ".git",
+        ".gitignore", 
+        "package.json",
+        "public",
+        "README.md",
+        "config.json",
+        "sublime_projects",
+        "gulpfile.js"
+    ]
+}

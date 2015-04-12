@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{title}}</h1>
+    <p>Welcome to {{title}}</p>
+    <div class="manager_projects_list">
+    {{each projects as value index}}
+        <div class="project-wrapper">
+            <div class="folder">
+            </div>
+            <a href="{{link}}/{{value}}/pages">{{value}}</a>
+        </div>
+    {{/each}}
+    </div>
+  </body>
+</html>
